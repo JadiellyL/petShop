@@ -47,7 +47,7 @@ body{
 }
 
 .borda{
-	border: solid #CCCCCC;
+	/*border: solid #CCCCCC;*/
 	width: 400px;
 	height: 500px;
 	display: inline-table;
