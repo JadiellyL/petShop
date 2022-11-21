@@ -26,22 +26,7 @@
 							<a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-light" href="produtos.html">Produtos</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Mais Informações
-							</a>
-							<ul class="dropdown-menu bg-danger">
-								<li><a class="dropdown-item text-light" href="#caes">Cães</a></li>
-								<li><a class="dropdown-item text-light" href="#gatos">Gatos</a></li>
-								<li><a class="dropdown-item text-light" href="servicos.html">Serviços</a></li>
-								<li>
-									<hr class="dropdown-divider">
-								</li>
-								<li><a class="dropdown-item text-light" href="#">Something else here</a></li>
-							</ul>
+							<a class="nav-link text-light" href="#produtos">Produtos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link text-light" href="galeria.html">Galeria</a>
@@ -51,6 +36,17 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link text-light" href="contato.html">Contato</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Mais Informações
+							</a>
+							<ul class="dropdown-menu bg-danger">
+								<li><a class="dropdown-item text-light" href="http://www.guiaderacas.com.br/cachorros/racas/" target="_blank">Raças de Cães</a></li>
+								<li><a class="dropdown-item text-light" href="http://www.guiaderacas.com.br/gatos/racas/">Gatos</a></li>
+								<li><a class="dropdown-item text-light" href="http://www.guiaderacas.com.br/cavalos/racas/">Cavalos</a></li>
+							</ul>
 						</li>
 					</ul>
 					<form class="d-flex" role="search">
@@ -68,366 +64,98 @@
 	</header>
 
 	<main>
-		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-					aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-					aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-					aria-label="Slide 3"></button>
-			</div>
+		<div id="carouselExampleFade" class="container carousel slide carousel-fade" data-bs-ride="carousel">
+
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="img/gato.jpg" class="imagem d-block w-100" alt="...">
+					<img src="img/slide/slide1.jpg" class="imagem d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>First slide label</h5>
 						<p>Some representative placeholder content for the first slide.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/tintura.jpg" class=" imagem d-block w-100" alt="...">
+					<img src="img/slide/slide2.webp" class="imagem d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Second slide label</h5>
 						<p>Some representative placeholder content for the second slide.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/altes.jpg" class="imagem d-block w-100" alt="...">
+					<img src="img/slide/slide3.jpg" class="imagem d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Third slide label</h5>
+						<p>Some representative placeholder content for the third slide.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/slide/slide4.jpg" class="imagem d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Third slide label</h5>
 						<p>Some representative placeholder content for the third slide.</p>
 					</div>
 				</div>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-				data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
 		</div>
 
-		<section class="container-fluid bg-danger" id="caes">
-			<p>Aos amantes de animais de raça aqui mostraremos algumas raças e suas características principais. Ao
-				clicar em qualquer categoria, você será encaminhado para o site Guia de Raças de Raças, onde encontrará
-				as informações sobre as raças que deseja <br />
-			</p>
+		<section class="container-fluid p-4 bg-danger" id="produtos">
 			<div class="container">
-				<div class="row">
-					<h4 class="col-12 text-light font-weight">Cães:</h4>
-
-					<div class="col-4">
-
-						<figure>
-							<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-pastores-e-boiadeiros.shtml"
-								target="_blank">
-								<img src="img/caes-pastores-e-boiadeiros.jpg" class="border rounded-4" />
-							</a>
-							<figcaption class="text-light">Cães Pastores e Boiadeiros</figcaption>
-						</figure>
-
+				<div class="row row-cols-1 row-cols-md-4 g-4">
+					<div class="col">
+					  <div class="card w-70 h-60">
+						<img src="img/produtos/gato.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Card title</h5>
+						  <p class="card-text">Twewrwerewreeeer</p>
+						</div>
+						<div class="card-footer">
+						  <small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					  </div>
+					</div>
+					<div class="col">
+					  <div class="card w-70 h-60">
+						<img src="img/produtos/banho.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Card title</h5>
+						  <p class="card-text">TTwewrwerewreeeer</p>
+						</div>
+						<div class="card-footer">
+						  <small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					  </div>
+					</div>
+					<div class="col">
+					  <div class="card w-70 h-60">
+						<img src="img/produtos/th.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+						  <h5 class="card-title">Card title</h5>
+						  <p class="card-text">Twewrwerewreeeer</p>
+						</div>
+						<div class="card-footer">
+						  <small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					  </div>
 					</div>
 
-					<div class="col-4">
-						<figure>
-							<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-de-guarda-trabalho-utilidade.shtml"
-								target="_blank">
-								<img src="img/caes-de-guarda-trabalho-e-utilidade.jpg" class="border rounded-4" />
-							</a>
-							<figcaption class="text-light">Cães de Guarda, <br />Trabalho e Utilidade</figcaption>
-
-						</figure>
-					</div>
-
-					<div class="col-4">
-						<figure>
-							<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-terriers.shtml"
-								target="_blank"></a>
-							<img src="img/caes-terriers.jpg" class="border rounded-4" />
-							</a>
-							<figcaption class="text-light">Cães Terriers</figcaption>
-
-						</figure>
-					</div>
-					<div class="row">
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-dachshunds.shtml"
-									target="_blank">
-									<img src="img/caes-dachshunds.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Cães Dachshunds</figcaption>
-
-							</figure>
+					<div class="col">
+						<div class="card w-70 h-60">
+						  <img src="img/produtos/tosa.jpeg" class="card-img-top" alt="...">
+						  <div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Twewrwerewreeeer</p>
+						  </div>
+						  <div class="card-footer">
+							<small class="text-muted">Last updated 3 mins ago</small>
+						  </div>
 						</div>
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/spitz-e-caes-do-tipo-primitivo.shtml"
-									target="_blank">
-									<img src="img/spitz-e-caes-do-tipo-primitivo.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Spitz e Cães <br />do tipo primitivo</figcaption>
-
-							</figure>
-						</div>
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-sabujos-e-farejadores.shtml"
-									target="_blank">
-									<img src="img/sabujos-e-farejadores.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Sabujos e Farejadores</figcaption>
-
-							</figure>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-apontadores.shtml"
-									target="_blank">
-									<img src="img/caes-apontadores.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Cães apontadores</figcaption>
-
-							</figure>
-						</div>
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/retrievers-levantadores-e-caes-dagua.shtml"
-									target="_blank">
-									<img src="img/retrievers-levantadores-e-caes-dagua.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Retrievers Levantadores<br /> e Cães d'água
-								</figcaption>
-
-							</figure>
-						</div>
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-de-companhia.shtml"
-									target="_blank">
-									<img src="img/caes-de-companhia.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Cães de Companhia</figcaption>
-
-							</figure>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/caes-lebreis.shtml"
-									target="_blank"></a>
-								<img src="img/caes-lebreis.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Cães de Lebreis</figcaption>
-
-							</figure>
-						</div>
-						<div class="col-4">
-							<figure>
-								<a href="http://www.guiaderacas.com.br/cachorros/racas/racas-nao-reconhecidas-pela-fci.shtml"
-									target="_blank">
-									<img src="img/racas-nao-reconhecidas-pela-FCI.jpg" class="border rounded-4" />
-								</a>
-								<figcaption class="text-light">Raças não reconhecidas pela FCI</figcaption>
-							</figure>
-						</div>
-					</div>
+					  </div>
 				</div>
+			</div>
+
 		</section>
-		<section class="container-fuid bg-light" id="gatos">
-			<div class="animals1">
-				<h4>Gatos:</h4>
-				<a href="http://www.guiaderacas.com.br/gatos/racas/abissinio.shtml" target="_blank">
-					<figure>
-						<img src="img/abissinio.jpg" alt="Abissinio" />
-						<figcaption>Abissinio</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/american-shorthair.shtml" target="_blank">
-					<figure>
-						<img src="img/american.jpg" />
-						<figcaption>American Shorthair</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/angora.shtml" target="_blank">
-					<figure>
-						<img src="img/angora.jpg" />
-						<figcaption>Angorá</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/azul-russo.shtml" target="_blank">
-					<figure>
-						<img src="img/azul.jpg" />
-						<figcaption>Azul Russo</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/bengal.shtml" target="_blank">
-					<figure>
-						<img src="img/bengal.jpg" />
-						<figcaption>Bengal</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/brazilian-shorthair.shtml" target="_blank">
-					<figure>
-						<img src="img/brazilian.jpg" />
-						<figcaption>Brazilian Shorthair</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/british-shorthair.shtml" target="_blank">
-					<figure>
-						<img src="img/british.jpg" />
-						<figcaption>British Shorthair</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/burmese.shtml" target="_blank">
-					<figure>
-						<img src="img/burmese.jpg" />
-						<figcaption>Gato Burmês</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/chartreux.shtml" target="_blank">
-					<figure>
-						<img src="img/chartreux.jpg" />
-						<figcaption>Chartreux</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/cornish-rex.shtml" target="_blank">
-					<figure>
-						<img src="img/cornish-rex.jpg" />
-						<figcaption>Cornish Rex</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/devon-rex.shtml" target="_blank">
-					<figure>
-						<img src="img/devon-rex.jpg" />
-						<figcaption>Devon Rex</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/egyptian-mau.shtml" target="_blank">
-					<figure>
-						<img src="img/egyptian-mau.jpg" />
-						<figcaption>Egyptian Mau</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/european-shorthair.shtml" target="_blank">
-					<figure>
-						<img src="img/european-shorthair.jpg" />
-						<figcaption>European Shorthair</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/exotico.shtml" target="_blank">
-					<figure>
-						<img src="img/exotico.jpg" />
-						<figcaption>Exótico</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/himalaio.shtml" target="_blank">
-					<figure>
-						<img src="img/himalaio.jpg" />
-						<figcaption>Himalaio</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/maine-coon.shtml" target="_blank">
-					<figure>
-						<img src="img/maine-coon.jpg" />
-						<figcaption>Maine Coon</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/munchkin.shtml" target="_blank">
-					<figure>
-						<img src="img/munchkin.jpg" />
-						<figcaption>Muchkin</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/norwegian-forest.shtml" target="_blank">
-					<figure>
-						<img src="img/norwegian-forest.jpg" />
-						<figcaption>Norwegian Forest</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/oriental.shtml" target="_blank">
-					<figure>
-						<img src="img/oriental.jpg" />
-						<figcaption>Oriental</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/persa.shtml" target="_blank">
-					<figure>
-						<img src="img/persa.jpg" />
-						<figcaption>Persa</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/ragdoll.shtml" target="_blank">
-					<figure>
-						<img src="img/ragdoll.jpg" />
-						<figcaption>Ragdoll</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/sagrado-da-birmania.shtml" target="_blank">
-					<figure>
-						<img src="img/sagrado-da-birmania.jpg" />
-						<figcaption>Sagrado da Birmania</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/savannah.shtml" target="_blank">
-					<figure>
-						<img src="img/savannah.jpg" />
-						<figcaption>Savannah</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/scottish-fold.shtml" target="_blank">
-					<figure>
-						<img src="img/scottish-fold.jpg" />
-						<figcaption>Scottish Fold</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/siames.shtml" target="_blank">
-					<figure>
-						<img src="img/siames.jpg" />
-						<figcaption>Siamês</figcaption>
-					</figure>
-				</a>
-
-				<a href="http://www.guiaderacas.com.br/gatos/racas/sphynx.shtml" target="_blank">
-					<figure>
-						<img src="img/sphynx.jpg" />
-						<figcaption>Sphynx</figcaption>
-					</figure>
-				</a>
-			</div>
-			</div>
+		<section class="container-fluid" id="servicos">
+			hjikhiohigigiuguogouguogugou
 		</section>
 
 	</main>
